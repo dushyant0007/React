@@ -10,6 +10,12 @@ import List from './I_rendering_list.jsx'
 
 
 function App() {
+
+  let more_fruits_list = [
+    {id:6,name:"Dragon",calories:116},
+    {id:7,name:"Mango",calories: 218}
+  ]
+
   return (
     <>
     <Header/>
@@ -28,7 +34,7 @@ function App() {
     <UserGreeting isLoggedIn={true} username="Rufus" />
     <UserGreeting isLoggedIn={false} username="Rufus" />
 
-    <List/>
+    <List more_fruits={more_fruits_list}/>
 
 
     </>

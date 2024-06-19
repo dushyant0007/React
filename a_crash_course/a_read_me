@@ -1,8 +1,0 @@
-// jsx - javascript xml
-
-//  vite is a dev server # replacement of create-react-app
-npm create vite@latest
-
-cd a_react-app
-npm install
-npm run dev
