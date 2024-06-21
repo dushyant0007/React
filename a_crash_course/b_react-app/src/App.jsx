@@ -1,7 +1,11 @@
 
-
-import Button from "./Button";
-import ProfilePicture from "./ProfilePicture";
+import Button from "./A_Button";
+import ProfilePicture from "./B_ProfilePicture";
+import MyComponent from "./C_MyComponent";
+import Counter from "./D_Counter";
+import InputChange from "./E_Change";
+import Updater from "./F_Updater";
+import FavCar from "./G_UpdateObjState";
 
 function App() {
   return (
@@ -9,6 +13,11 @@ function App() {
       <h1>Welcome</h1>
       <Button/>
       <ProfilePicture/>
+      <MyComponent/>
+      <Counter/>
+      <InputChange/>
+      <Updater/>
+      <FavCar/>
     </>
   );
 }
