@@ -23,7 +23,7 @@ import ComponentB from "./C_B-UseContext";
 export const UserContext = createContext();
  
 function ComponentA(){
-    const [user,setUser] = useState("Olga vision");
+    const [user,/*setUser*/] = useState("Olga vision");
     return (
  
         <div className="box">
